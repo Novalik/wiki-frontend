@@ -5,7 +5,11 @@ function Index() {
 
   return (
     <div className="Index">
-      <h1>Index Page.</h1>
+      <div className="title">Discord News</div>
+      <div className="menu">
+        <a className="authbtn" href='/auth'>auth</a>
+      </div>
+      <div className="cont"></div>
     </div>
   )
 }
